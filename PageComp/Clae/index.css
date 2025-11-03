@@ -25,21 +25,15 @@ h1{
 }
 
 .notifications{
-	background-color: #D9B991;
-	color: white;
-	padding: 2em;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-	border-style: solid;
-	border-color:wheat ;
-	border-radius: 15px;
 	width: 40%;
+	overflow-y: scroll;
 }
 .inline{
 	display: flex;
 	justify-content: space-between;
 	height: 500px;
 }
-.completion{
+.panel{
 	background-color: #D9B991;
 	color: white;
 	padding: 2em;
@@ -47,18 +41,16 @@ h1{
 	border-style: solid;
 	border-color:wheat ;
 	border-radius: 15px;
+	margin: 20px;
+}
+.completion{
+	
 	width: 40%;
 }
 .chapters{
-	background-color: #D9B991;
-	color: white;
-	padding: 2em;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-	border-style: solid;
-	border-color:wheat ;
-	border-radius: 15px;
 	width: 90%;
 	height: 300px;
+	overflow-y: scroll;
 }
 .track {
 fill: none;
