@@ -26,12 +26,16 @@ h1{
 
 .notifications{
 	width: 40%;
-	overflow-y: scroll;
+	
 }
 .inline{
 	display: flex;
 	justify-content: space-between;
 	height: 500px;
+}
+.scrollable{
+	overflow-y: scroll;
+	box-sizing: border-box;
 }
 .panel{
 	background-color: #D9B991;
@@ -42,6 +46,8 @@ h1{
 	border-color:wheat ;
 	border-radius: 15px;
 	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
 }
 .completion{
 	
@@ -50,7 +56,6 @@ h1{
 .chapters{
 	width: 90%;
 	height: 300px;
-	overflow-y: scroll;
 }
 .track {
 fill: none;
